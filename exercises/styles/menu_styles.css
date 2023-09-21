@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+    margin: 30px;
+    border: 1px solid gray;
+    padding: 30px;
+}
+
+body h1 {
+    color: lightgray;
+    padding: 30px;
+}
+
+.summercourse {
+    color: salmon;
+}
