@@ -1,9 +1,12 @@
 body {
+    text-align: center;
+    list-style-position: inside;
     font-family: sans-serif;
     margin: 30px;
     border: 1px solid gray;
-    padding: 30px;
+    padding: 20px;
     font-size: 30px;
+    background: beige;
 }
 
 body h1 {
@@ -27,12 +30,24 @@ body h1 {
 
 .dishdescription {
     font-size: 15px;
-    color:tomato;
+    color:yellowgreen;
     font-size: 20px;
 }
 
 .price {
     font-size: 40px;
-    color:orangered;
+    color:plum;
     font-weight: bold;
+    border: 1px solid plum;
+    background-color: cyan;
+    
+}
+
+.warning{
+    font-size: 30px;
+    color:red;
+}
+
+.homepage{
+    font-size: 20px;
 }
