@@ -3,6 +3,7 @@ body {
     margin: 30px;
     border: 1px solid gray;
     padding: 30px;
+    font-size: 30px;
 }
 
 body h1 {
@@ -22,4 +23,16 @@ body h1 {
     font-variant: small-caps;
     font-weight: bold;
     color: black;
+}
+
+.dishdescription {
+    font-size: 15px;
+    color:tomato;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 40px;
+    color:orangered;
+    font-weight: bold;
 }
