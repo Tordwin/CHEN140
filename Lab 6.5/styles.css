@@ -10,6 +10,10 @@
    flex-grow: 1;
    flex-basis: 45%;
 }
+
+.summary > div > div {
+   display: flex;
+}
 /* Given CSS rules below */
 body {
    margin: 0;
@@ -59,14 +63,14 @@ header {
 }
 
 .summary > div {
+   display: flex;
+   justify-content: space-between;
    background-color: #DDEDAA;
    border: 2px solid #93B5C6;
    border-radius: 5px;
    color: #BD4F6C;
    padding: 5px;
    width: 210px;
-   display: flex;
-   justify-content: space-between;
 }
 
 .related-content {
