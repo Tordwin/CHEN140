@@ -46,8 +46,8 @@ a:active{
     color: red;
 }
 
-table {
-    border-color: blue;
+table, th, td {
+    border: 2px solid blue;
 }
 
 ul, ol{
