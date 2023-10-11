@@ -1,23 +1,41 @@
 html{
     background-color: whitesmoke;
-    margin: 50px;
-    padding: 50px;
+    margin: 25px;
+    padding: 25px;
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
+    border: 2px solid pink;
+    border-radius: 5px;
 }
 
 h1 {
-    color: darksalmon;
+    background-color: cyan;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid cyan;
+    border-radius: 5px;
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+.container {
+    flex: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
     color: blue;
     text-decoration: none;
-
 }
 
 a:visited {
-    color: darkmagenta;
+    color: purple;
 }
 
 a:hover {
@@ -25,9 +43,14 @@ a:hover {
 }
 
 a:active{
-    color: purple;
+    color: red;
 }
 
 table {
     border-color: blue;
+}
+
+ul, ol{
+    border: 2px solid pink;
+    border-radius: 5px;
 }
