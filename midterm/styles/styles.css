@@ -4,8 +4,8 @@ body, h1, p, button {
 }
 
 header {
-    background-color: gray;
-    color: white;
+    background-color: lightpink;
+    color: black;
     padding: 10px;
 }
 
@@ -79,8 +79,14 @@ p {
 }
 
 footer {
-    background-color: darkgray;
-    color: white;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightpink;
+    color: black;
     padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    flex: 1;
 }
