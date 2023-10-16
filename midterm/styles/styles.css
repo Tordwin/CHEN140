@@ -12,6 +12,7 @@ body, h1, p, button {
     border: 1px solid black;
     font-family: 'Times New Roman';
     position: relative;
+    background-color: pink;
 }
 
 .banner {
