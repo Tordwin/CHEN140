@@ -1,0 +1,63 @@
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 400px;
+    margin: 20px;
+    border: 1px solid white;
+    font-family: 'Times New Roman';
+    position: relative;
+}
+
+.banner {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    background-color: grey;
+}
+
+.banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 10px;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.rating {
+
+}
+
+p {
+    font-size: 18px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+}
+
+.action-button{
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: darkcyan;
+}
