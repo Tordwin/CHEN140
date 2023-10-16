@@ -87,6 +87,6 @@ footer {
     text-align: center;
 }
 
-footer p {
+footer p a {
     flex: 1;
 }
