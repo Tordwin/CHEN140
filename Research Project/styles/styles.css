@@ -1,0 +1,51 @@
+header {
+    background-color: #33B1AA;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+body {
+    background-color: #9ECBCE;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.table {
+    display: inline-block;
+    max-width: 100%;
+    min-width: 400px;
+    position: relative;
+    background-color: white;
+    min-height: 400px;
+    max-height: 100%;
+}
+
+.contents {
+    max-width: 100%;
+    font-size: 20px;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #33B1AA;
+    color: white;
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    flex: 1;
+}
