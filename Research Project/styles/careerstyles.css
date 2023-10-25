@@ -19,6 +19,11 @@ body {
     max-height: 100%;
 }
 
+.careercontent p {
+    font-size: 20px;
+    text-indent: 20px;
+}
+
 .careercontent img {
     display: block;
     margin-left: auto;
