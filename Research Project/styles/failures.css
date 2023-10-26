@@ -25,6 +25,23 @@ body {
     text-indent: 20px;
 }
 
+.videocontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.video {
+    flex: 1;
+    margin: 5px;
+}
+
+@media (max-width: 800px) {
+    .video {
+        flex: 1;
+    }
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
