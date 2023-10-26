@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.explore {
+    font-size: 56px;
+    font-family: 'Noto Sans';
+    font-weight: 800;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.explorecontent {
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.image1 {
+    width: 936;
+    height: 629;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
