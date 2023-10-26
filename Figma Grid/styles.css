@@ -14,14 +14,35 @@
     grid-column-end: 3;
 }
 
-.explorecontent {
+.explore_summary {
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 6;
 }
 
 .image1 {
     width: 936;
     height: 629;
     grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.eight {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.image2 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.image3 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 5;
     grid-column-end: 6;
 }
