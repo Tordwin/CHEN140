@@ -29,8 +29,10 @@ body {
     max-width: 100%;
     min-width: 400px;
     display: block;
-    margin: auto;
+    margin: 2% auto;
     height: 450px;
+    padding: 50px;
+    box-sizing: border-box;
     
 }
 
