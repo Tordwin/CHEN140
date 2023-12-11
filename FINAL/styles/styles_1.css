@@ -1,27 +1,3 @@
-body #overview {
-    background-color: #0097AB;
-    font-family: 'Times New Roman';
-    line-height: 2;
-}
-
-#overview h2 {
-    padding-left: 10px;
-    color: white;
-}
-
-#overview p {
-    padding-left: 10px;
-    color: white;
-    line-height: 2;
-}
-
-.girlcanoe {
-    width: 100%;
-    height: auto;
-    max-height: 1200px;
-    border: 5px solid #0097AB;
-}
-
 header {
     background-color: #00F0FF;
     color: #fff;
@@ -49,4 +25,28 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+}
+
+body #overview {
+    background-color: #0097AB;
+    font-family: 'Times New Roman';
+    line-height: 2;
+}
+
+#overview h2 {
+    padding-left: 10px;
+    color: white;
+}
+
+#overview p {
+    padding-left: 10px;
+    color: white;
+    line-height: 2;
+}
+
+.girlcanoe {
+    width: 100%;
+    height: auto;
+    max-height: 1200px;
+    border: 5px solid #0097AB;
 }
