@@ -3,6 +3,7 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
+    border: 2px solid blue;
 }
 
 header h1 {
@@ -35,12 +36,16 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+    border: 2px solid blue;
 }
 
 body #overview {
     background-color: #0097AB;
     font-family: 'Times New Roman';
     line-height: 2;
+    border: 2px solid blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #overview h2 {
@@ -59,7 +64,7 @@ body #overview {
     width: 100%;
     height: auto;
     max-height: 1200px;
-    border: 5px solid #0097AB;
+    border: 2px solid blue;
 }
 
 @media only screen and (max-width: 600px) {
@@ -79,5 +84,14 @@ body #overview {
 
     #overview {
         padding: 10px;
+    }
+}
+
+@media screen and (min-aspect-ratio: 16/9) {
+    .girlcanoe {
+        max-width: 50%;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
     }
 }

@@ -2,6 +2,8 @@ header {
     background-color: #0097AB;
     color: white;
     text-align: center;
+    border: 2px solid blue;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -13,6 +15,7 @@ nav ul {
     background-color: #00F0FF;
     padding: 10px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 nav li {
@@ -35,13 +38,14 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+    border: 2px solid blue;
 }
 
 body #enviormentandlandscape {
     background-color: #0097AB;
     font-family: 'Times New Roman';
     line-height: 2;
-    border: 2px solid #004080;
+    border: 2px solid blue;
     margin-bottom: 5px;
 }
 
@@ -65,7 +69,7 @@ body #enviormentandlandscape {
     width: 100%;
     height: auto;
     max-height: 1200px;
-    border: 5px solid #0097AB;
+    border: 2px solid blue;
 }
 
 @media only screen and (max-width: 600px) {
@@ -85,5 +89,14 @@ body #enviormentandlandscape {
 
     #overview {
         padding: 10px;
+    }
+}
+
+@media screen and (min-aspect-ratio: 16/9) {
+    .berries {
+        max-width: 50%;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
     }
 }
