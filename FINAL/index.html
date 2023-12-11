@@ -51,8 +51,17 @@
         </div>
 
         <footer>
-            <p>Edwin Chen | 12/11/2023 | Final Practical</p>
+            <p id="date"></p>
+            <p>Edwin Chen | Final Practical</p>
             <p>Image Reference: Unknown</p>
         </footer>
+    
+        <script>
+                var date = new Date();
+                var newDate = date.toDateString();
+                document.getElementById("date").textContent = "Current Date: " + newDate;
+                document.getElementById("currentDate").textContent = newDate;
+        </script>
+        
     </body>
 </html>
