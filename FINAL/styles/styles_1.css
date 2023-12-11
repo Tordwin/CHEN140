@@ -1,0 +1,44 @@
+body #overview {
+    background-color: #0097AB;
+    font-family: 'Times New Roman';
+    line-height: 2;
+}
+
+#overview {
+    color: white;
+}
+
+.girlcanoe {
+    width: 100%;
+    height: auto;
+    max-height: 1200px;
+    object-fit: cover;
+    border: 5px solid #0097AB;
+}
+
+header {
+    background-color: #00F0FF;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #0097AB;
+    padding: 10px;
+    text-align: center;
+}
