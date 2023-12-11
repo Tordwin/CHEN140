@@ -20,18 +20,29 @@ nav li {
     margin-right: 20px;
 }
 
+nav a:hover {
+    color: yellow;
+}
+
+nav a:visited {
+    color: purple;
+}
+
 footer {
-    background-color: #0097AB;
+    display: flex;
+    justify-content: space-around;
+    background: #0097AB;
     padding: 10px;
     text-align: center;
     color: white;
 }
 
-
 body #enviormentandlandscape {
     background-color: #0097AB;
     font-family: 'Times New Roman';
     line-height: 2;
+    border: 2px solid #004080;
+    margin-bottom: 5px;
 }
 
 
@@ -55,4 +66,24 @@ body #enviormentandlandscape {
     height: auto;
     max-height: 1200px;
     border: 5px solid #0097AB;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px 5px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    #overview {
+        padding: 10px;
+    }
 }
