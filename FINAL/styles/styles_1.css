@@ -89,7 +89,7 @@ body #overview {
 
 @media screen and (min-aspect-ratio: 16/9) {
     .girlcanoe {
-        max-width: 50%;
+        max-width: 55%;
         margin: 0 auto;
         display: block;
         margin-bottom: 10px;
