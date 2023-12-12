@@ -9,7 +9,6 @@ img.canoe {
     height: auto;
     max-height: 1200px;
     border: 2px solid blue;
-    box-shadow: 5px whitesmoke;
 }
 
 header {
@@ -79,7 +78,7 @@ footer {
 }
 
 footer:hover {
-    background: linear-gradient(to right, #8f94fb, #0097AB); /* Change the background on hover */
+    background: linear-gradient(to right, #8f94fb, #0097AB);
 }
 
 @media screen and (max-width: 600px) {

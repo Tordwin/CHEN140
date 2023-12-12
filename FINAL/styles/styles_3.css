@@ -51,7 +51,6 @@ img.building {
     max-height: 1200px;
     border: 2px solid blue;
     margin-bottom: 10px;
-    box-shadow: 5px whitesmoke;
 }
 
 img.building, #activitiesandculture {
@@ -85,6 +84,10 @@ body #activitiesandculture {
     padding-left: 10px;
     color: white;
     line-height: 2;
+}
+
+.white {
+    color: white;
 }
 
 footer {

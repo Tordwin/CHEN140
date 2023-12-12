@@ -43,7 +43,6 @@ img.waterfall {
     height: auto;
     max-height: 1200px;
     border: 2px solid blue;
-    box-shadow: 5px whitesmoke;
 }
 
 body #enviormentandlandscape {
@@ -52,7 +51,6 @@ body #enviormentandlandscape {
     line-height: 2;
     border: 2px solid blue;
     margin-bottom: 5px;
-    box-shadow: 5px whitesmoke;
 }
 
 
