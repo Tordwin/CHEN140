@@ -4,11 +4,12 @@ body {
     background-color: white;
 }
 
-.canoe {
+img.canoe {
     width: 100%;
     height: auto;
     max-height: 1200px;
     border: 2px solid blue;
+    box-shadow: 5px whitesmoke;
 }
 
 header {
@@ -17,6 +18,8 @@ header {
     padding: 10px;
     text-align: center;
     border: 2px solid blue;
+    box-shadow: 10px 5px 5px #00F0FF;
+    
 }
 
 header h1 {
@@ -49,6 +52,7 @@ body #overview {
     border: 2px solid blue;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 10px 5px 5px #0097AB;
 }
 
 #overview h2 {
@@ -66,11 +70,16 @@ body #overview {
 footer {
     display: flex;
     justify-content: space-around;
-    background: #0097AB;
     padding: 10px;
     text-align: center;
     color: white;
     border: 2px solid blue;
+    box-shadow: 10px 5px 5px #0097AB;
+    background: linear-gradient(to right, #0097AB, #8f94fb);
+}
+
+footer:hover {
+    background: linear-gradient(to right, #8f94fb, #0097AB); /* Change the background on hover */
 }
 
 @media screen and (max-width: 600px) {
@@ -90,7 +99,7 @@ footer {
 }
 
 @media screen and (min-aspect-ratio: 16/9) {
-    .canoe {
+    img.canoe {
         max-width: 55%;
         margin: 0 auto;
         display: block;

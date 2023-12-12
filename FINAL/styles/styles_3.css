@@ -10,6 +10,7 @@ header {
     text-align: center;
     border: 2px solid blue;
     margin-bottom: 10px;
+    box-shadow: 10px 5px 5px #00F0FF;
 }
 
 header h1 {
@@ -44,15 +45,16 @@ nav a:visited {
     flex-wrap: wrap;
 }
 
-.building {
+img.building {
     width: 100%;
     height: auto;
     max-height: 1200px;
     border: 2px solid blue;
     margin-bottom: 10px;
+    box-shadow: 5px whitesmoke;
 }
 
-.building, #activitiesandculture {
+img.building, #activitiesandculture {
     width: 100%;
 }
 
@@ -62,6 +64,7 @@ body #activitiesandculture {
     line-height: 2;
     border: 2px solid blue;
     margin-bottom: 5px;
+    box-shadow: 10px 5px 5px #0097AB;
 }
 
 #activitiesandculture h2 {
@@ -87,21 +90,26 @@ body #activitiesandculture {
 footer {
     display: flex;
     justify-content: space-around;
-    background: #0097AB;
     padding: 10px;
     text-align: center;
     color: white;
     border: 2px solid blue;
+    box-shadow: 10px 5px 5px #0097AB;
+    background: linear-gradient(to right, #0097AB, #8f94fb);
+}
+
+footer:hover {
+    background: linear-gradient(to right, #8f94fb, #0097AB);
 }
 
 @media screen and (min-width: 600px) {
-    .building, #activitiesandculture {
+    img.building, #activitiesandculture {
         width: 45%;
     }
 }
 
 @media screen and (min-aspect-ratio: 16/9) {
-    .building {
+    img.building {
         max-width: 55%;
         margin: 0 auto;
         display: block;
