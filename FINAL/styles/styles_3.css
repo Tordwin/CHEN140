@@ -59,6 +59,7 @@ body #activitiesandculture {
     line-height: 2;
 }
 
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -66,6 +67,13 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+    border: 2px solid blue;
+}
+
+.building {
+    width: 100%;
+    height: auto;
+    max-height: 1200px;
     border: 2px solid blue;
 }
 
@@ -91,14 +99,6 @@ footer {
     #activitiesandculture {
         padding: 10px;
     }
-}
-
-.building {
-    width: 100%;
-    height: auto;
-    max-height: 1200px;
-    border: 2px solid blue;
-    margin-bottom: 10px;
 }
 
 @media screen and (min-aspect-ratio: 16/9) {
