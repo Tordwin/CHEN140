@@ -37,7 +37,7 @@ nav a:visited {
     color: purple;
 }
 
-.berries {
+.waterfall {
     width: 100%;
     height: auto;
     max-height: 1200px;
@@ -95,7 +95,7 @@ footer {
 }
 
 @media screen and (min-aspect-ratio: 16/9) {
-    .berries {
+    .waterfall {
         max-width: 55%;
         margin: 0 auto;
         display: block;
